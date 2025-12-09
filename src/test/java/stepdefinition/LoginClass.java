@@ -30,6 +30,7 @@ public class LoginClass
 	@When("enter username {string} and password as {string}")
 	public void enter_username_and_password_as(String user, String pass) 
 	{
+		//hello
 	   l.getUsername(user);
 	   l.getPassword(pass);
 	}
