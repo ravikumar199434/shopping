@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.463" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-03T06:00:37.217557700Z">
+<testcase classname="Login" name="login with valid input" time="0.038">
+<failure/>
+<system-out><![CDATA[
+Given user open chrome browser..............................................passed
+When user open url "https://practicetestautomation.com/practice-test-login/".passed
+And enter username "student" and password as "Password123"..................passed
+And click on submit button..................................................passed
+Then page title should be "Logged In Successfully | Practice Test Automation".passed
+When browser close..........................................................undefined
+]]></system-out>
+</testcase>
+</testsuite>
